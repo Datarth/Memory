@@ -1,0 +1,50 @@
+
+
+body{
+    margin: 0;
+    background-image: url(https://images.unsplash.com/photo-1511406361295-0a1ff814c0ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8d3dbc6883f359a2fb11b6466955a941&auto=format&fit=crop&w=634&q=80) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #f5841b;
+    font-family: 'Lobster', sans-serif;
+    font-size: 18px;
+}
+
+.board
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.card{
+    width: 125px;
+	height: 100px;
+	display: inline-block;
+	margin: 3px;
+	border: 4px solid #f7b80b;
+	border-radius: 4px;
+	cursor: pointer;
+	filter: brightness(70%);
+	transition: all .3s ease-in-out;
+}
+
+@media(orientation: portrait){
+    
+    
+}
+
+
+
+h1
+{
+	font-size: 48px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
